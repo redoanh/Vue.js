@@ -1,0 +1,73 @@
+
+.gradient-bg {
+  background: linear-gradient(135deg, #f53d8a, #f53d8a, #f53d8a);
+  border-radius: 15px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.gradient-bg:hover {
+  transform: scale(1.03);
+}
+
+.custom-input {
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+button {
+  border-radius: 25px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ff5722;
+  color: white;
+}
+
+
+
+
+/*Transaction list style */
+
+  .transaction-list {
+    border-radius: 15px;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  }
+
+  .custom-select {
+    width: 2px;
+    border-radius: 2px;
+    border: 2px solid #fffb00;
+    transition: 0.3s;
+  }
+  
+  .custom-select:hover {
+    border-color: #0056b3;
+  }
+
+  .table {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .table th {
+    background-color: #343a40 !important;
+    color: white;
+  }
+
+  .badge-container {
+    font-size: 14px;
+  }
+  
+  .badge {
+    font-size: 13px;
+    padding: 5px 10px;
+  }
+
+  button:hover {
+    background-color: #dc3545;
+    color: white;
+  }
+
+  
